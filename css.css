@@ -1,0 +1,158 @@
+body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+
+  /* font-size: 16px;
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+  font-style: normal; */
+
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+
+  font: normal 20px "Roboto", sans-serif;
+  margin: 50px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: overline;
+}
+
+a:visited {
+  color: #6b696d00;
+}
+.avatar {
+  width: 200px;
+  border-radius: 30px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+}
+
+.info p {
+  color: #86898f;
+  margin: 0;
+  font-style: italic;
+  font-weight: bolder;
+  text-decoration: double;
+  /* text-transform: uppercase; */
+  /* letter-spacing: ; */
+  /* word-spacing: 43px; */
+}
+
+@media (max-width: 700px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+}
+
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.page {
+  margin-left: 25px;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.bg-yellow {
+  background: #fff9dc;
+}
+
+.bg-green {
+  background: #e5ffe7;
+}
+
+.bg-red {
+  background: #ffe5e5;
+}
+
+.card {
+  padding: 15px 20px;
+  background: ;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list {
+  color: #86898f;
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .form-group {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.btm {
+  background: #111;
+  padding: 15px 20px;
+  color: #ccc;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btm:hover {
+  opacity: 0, 9;
+}
+
+/* .сети {
+  background: blue;
+  padding: 15px 20px 35px 40px;
+  border: 5px solid red;
+  border-bottom-style: dotted;
+  margin: 20px;
+} */
+
+/* Position */
+
+/* .position {
+    border: 4px solid ;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  background: lightcoral;
+} */
